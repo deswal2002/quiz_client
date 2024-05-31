@@ -64,21 +64,25 @@
     font-size: 1.1rem;
     font-weight: 600;
     margin-top: 3%;
+    color: #474444;
 }
 .label1{
     font-size: 1.1rem;
     font-weight: 600;
     margin-top: 10%;
+    color: #474444;
 }
 .label2{
     font-size: 1.1rem;
     font-weight: 600;
     margin-top: 10%;
+    color: #474444;
 }
 .label3{
     font-size: 1.1rem;
     font-weight: 600;
     margin-top: 10%;
+    color: #474444;
 }
 .input{
     width: 18vw;
@@ -93,6 +97,7 @@
     border: none;
     border-radius: 4px;
     margin-top: 3%;
+    color: #474444;
     
 }
 .in_new{
@@ -104,6 +109,7 @@
     border-color:#D60000 ;
     border-radius: 8px;
     margin-top: 3%;
+    color: #474444;
 }
 .in_new::placeholder{
     color: #D60000;
@@ -117,6 +123,7 @@
     border-color:#D60000 ;
     border-radius: 8px;
     margin-top: 7%;
+    color: #474444;
 }
 .in_new1::placeholder{
     color: #D60000;
@@ -130,6 +137,7 @@
     border-color:#D60000 ;
     border-radius: 8px;
     margin-top: 7%;
+    color: #474444;
 }
 .in_new2::placeholder{
     color: #D60000;
@@ -143,6 +151,7 @@
     border-color:#D60000 ;
     border-radius: 8px;
     margin-top: 7%;
+    color: #474444;
 }
 .in_new3::placeholder{
     color: #D60000;
@@ -156,6 +165,7 @@
     border: none;
     margin-top: 7%;
     border-radius: 4px;
+    color: #474444;
 }
 .in2{
     width: 20vw;
@@ -166,6 +176,7 @@
     border: none;
     margin-top: 7%;
     border-radius: 4px;
+    color: #474444;
 }
 .in3{
     width: 20vw;
@@ -176,6 +187,7 @@
     border: none;
     margin-top: 7%;
     border-radius: 4px;
+    color: #474444;
 }
 .signin{
     background-color: #A9BCFF;

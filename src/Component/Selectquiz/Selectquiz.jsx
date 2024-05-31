@@ -113,7 +113,7 @@ function Selectquiz(props) {
       <div className={style.white}>
         {submit ? <>{quizs?.quizType === "Q & A" ? <><div className={style.congrats}>Congrats Quiz is completed</div>
           <div className={style.win}><img className={style.win1} src={win} /></div>
-          <div className={style.score}><div>Your Score is </div><div style={{ color: "#60B84B" }}> 0{counts}/0{quizs?.correctOption?.length}</div></div></>
+          <div className={style.score}><div>Your Score is&nbsp;</div><div style={{ color: "#60B84B" }}> 0{counts}/0{quizs?.correctOption?.length}</div></div></>
           : <>
             <div className={style.poll1} >Thank you</div>
             <div className={style.poll}>for participating in</div>

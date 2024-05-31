@@ -25,6 +25,7 @@
     border: none;
     font-size: 1rem;
     font-weight: 500;
+    background: #FFFFFF;
     font-family: Poppins;
     border-radius: 10px;
     align-items: center;
@@ -163,6 +164,8 @@
     border: none;
     border-radius: 10px;
     padding-left: 3%;
+    background: #FFFFFF;
+
 }
 .qs::placeholder{
     color: #9F9F9F;
@@ -229,6 +232,7 @@
     padding-left: 5%;
     margin-top: 3%;
     margin-left: 13%;
+    color: #353434;
 }
 .option2::placeholder{
     color: #9F9F9F;
@@ -349,6 +353,7 @@
     padding-left: 5%;
     margin-top: 3%;
     margin-left: 12%;
+    color: #353434;
 }
 .newoption::placeholder{
     color: #9F9F9F;
@@ -384,7 +389,7 @@
     padding-left: 8%;
     margin-top: 9%;
     margin-left: 22%;
-    
+    color: #353434;
 }
 .option4::placeholder{
     color: #9F9F9F;
@@ -443,11 +448,13 @@
     font-size: 1.8rem;
     font-family: Poppins;
     font-weight: 600;
+    color: #474444;
 }
 .text2{
     font-size: 1.8rem;
     font-family: Poppins;
     font-weight: 600;
+    color: #474444;
 }
 .link{
     width: 70%;

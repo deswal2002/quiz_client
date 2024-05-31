@@ -95,6 +95,7 @@
     font-size: 2rem;
     font-weight: 600;
     font-family: Poppins;
+    color: #474444;
 }
 .allbox{
     width: 88%;
@@ -118,12 +119,14 @@
     justify-content: center;
     align-items: center;
     font-size: 1rem;
+    color: #474444;
 }
 .digit{
     height: 70%;
     width: 100%;
     display: flex;
     justify-content: center;
+    color: #474444;
     align-items: center;
 }
 .option{
@@ -138,6 +141,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #474444;
 }
 .text1{
     width: 50%;
@@ -145,6 +149,7 @@
     display: flex;
     align-items: center;
     font-size: 1rem;
+    color: #474444;
 }
 .deleteQuiz{
     background-color:#000000CF;
@@ -169,11 +174,13 @@
     font-weight: 600;
     font-family: Poppins;
     margin-top: 8%;
+    color: #474444;
 }
 .deleteText1{
     font-size: 2rem;
     font-weight: 600;
     font-family: Poppins;
+    color: #474444;
 }
 .deletecancel{
     width: 80%;
