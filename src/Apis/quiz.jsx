@@ -1,5 +1,5 @@
 import axios from "axios";
-const apiUrl=__API_URL__
+const apiUrl= import.meta.env.VITE_BACKEND_URL
 import Cookies from 'js-cookie';
 
 export const createQuiz=async ({email,quizName,quizType,questionNo,question,option,option1,optionNo,optionType,timer,impression,correctOption,correctAns,wrongAns,anaylsis})=>{

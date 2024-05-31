@@ -1,5 +1,5 @@
 import axios from "axios";
-const apiUrl=import.meta.env.VITE_BACKEND_URL
+const apiUrl= import.meta.env.VITE_BACKEND_URL
 
 export const register=async ({name,email,password})=>{
     try {
