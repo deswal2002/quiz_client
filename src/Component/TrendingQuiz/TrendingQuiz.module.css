@@ -66,7 +66,7 @@
 .trendingbox{
     width: 15vw;
     background-color: #FFFFFF;
-    height: 20%;
+    height: 10vh;
     display: flex;
     justify-content: center;
     margin-top: 4%;

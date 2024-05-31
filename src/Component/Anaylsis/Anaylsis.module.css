@@ -235,7 +235,47 @@
         margin-left: 28vw;
     }
     .text{
+        font-size: 0.1rem;
+    }
+    .write{
+        font-size: 0.8rem;
+    }
+    .write123{
+        font-size: 0.8rem;
+    }
+    .write1{
         font-size: 0.5rem;
+    }
+    .write12{
+        font-size: 0.5rem;
+    }
+    .write2{
+        font-size: 0.5rem;
+        margin-left: 2%;
+    }
+    .deleteText{
+        font-size: 1rem;
+    }
+    .deleteText1{
+        font-size: 1rem;
+    }
+    .white{
+        height: 20%;
+    }
+    .delete2{
+        font-size: 0.5rem;
+    }
+    .cancel1{
+        font-size: 0.5rem;
+    }
+    .time{
+        font-size: 1rem;
+    }
+    .quizName{
+        font-size: 2rem;
+    }
+    .question{
+        font-size: 1rem;
     }
 }
 @media only screen and (max-width: 1200px){
