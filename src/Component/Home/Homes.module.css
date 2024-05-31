@@ -1,0 +1,112 @@
+.navbar{
+    width: 15%;
+    height: 100vh;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+}
+.quiz{
+    font-family: Jomhuria;
+    font-size: 5rem;
+    font-weight: 400; 
+    color: #474444;
+}
+.box{
+    width: 100%;
+    height: 60%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.box1{
+    font-family: Poppins;
+    color: #474444;
+    font-size: 1.5rem;
+    font-weight: 600;
+    width: 80%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.box2{
+    font-family: Poppins;
+    color: #474444;
+    font-size: 1.5rem;
+    font-weight: 600;
+    width: 80%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 10%;
+}
+.box3{
+    font-family: Poppins;
+    color: #474444;
+    font-size: 1.5rem;
+    font-weight: 600;
+    width: 80%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 10%;
+}
+.image{
+    margin-top: 70%;
+}
+.logout{
+    font-family: Poppins;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-top: 5%;
+}
+@media only screen and (max-width: 1200px){
+    .quiz{
+        font-size:4rem;
+    }
+    .box1{
+        font-size: 1rem;
+    }
+    .box2{
+        font-size: 1rem;
+    }
+    .box3{
+        font-size: 1rem;
+    }
+    .logout{
+        font-size: 1.4rem;    }
+}
+@media only screen and (max-width: 900px){
+    .navbar{
+        width: 25vw;
+    }
+}
+@media only screen and (max-width: 600px){
+    .quiz{
+        font-size:3rem;
+    }
+    .box1{
+        font-size: 0.8rem;
+    }
+    .box2{
+        font-size: 0.8rem;
+    }
+    .box3{
+        font-size: 0.8rem;
+    }
+    .logout{
+        font-size: 1rem;    
+    }
+    .navbar{
+        width: 28vw;
+    }
+}

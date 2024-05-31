@@ -1,0 +1,182 @@
+.box{
+    display: flex;
+    align-items: center;
+    width: 85vw;
+    height: 100vh;
+    flex-direction: column;
+    background-color: #EDEDED;
+    margin-left: 17.5%;
+    overflow-x: auto;
+    display: flex;
+    align-items: center;
+}
+.add{
+    width: 85%;
+    height: 10vw;
+    gap:2%;
+    display: flex;
+    margin-top: 8%;
+}
+.smallAdd{
+    width: 40%;
+    height: 100%;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 0%;
+    box-sizing: border-box;
+}
+.text{
+    font-size: 2rem;
+    margin-top: 8%;
+    font-family: Poppins;
+    font-weight: 600;
+}
+.text1{
+    font-size: 3rem;
+    font-family: Poppins;
+    font-weight: 600;
+    display: flex;
+    width: 40%;
+    justify-content: end;
+    align-items: center;
+    margin-top: 3%;
+}
+.text2{
+    font-size: 2rem;
+    font-family: Poppins;
+    font-weight: 600;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    margin-top: 1%;
+}
+.text3{
+    font-size: 2rem;
+    font-family: Poppins;
+    font-weight: 600;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+.trendingbox{
+    width: 15vw;
+    background-color: #FFFFFF;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.box1{
+   width: 90%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+.quizname{
+    width: 80%;
+    font-size: 1.5rem;
+    font-family: Poppins;
+    font-weight: 600;
+}
+.eye{
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.2vh;
+}
+.eye1{
+    font-size: 1rem;
+    color: #FF5D01;
+    font-family: Poppins;
+    font-weight: 600;
+    justify-content: end;
+}
+.creat{
+    width: 90%;
+    margin-left: 5%;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 70%;
+    color: #60B84B;
+    margin-top: 1%;
+}
+
+@media only screen and (max-width: 1200px){
+    .text1{
+        font-size: 2.5rem;
+    }
+    .text2{
+        font-size: 1.5rem;
+    }
+    .text3{
+        font-size: 1.5rem;
+    }
+    .text{
+        font-size: 1.5rem;
+    }
+}
+@media only screen and (max-width: 900px){
+    .box{
+        width: 90vw;
+        margin-left: 25vw;
+    }
+    .text1{
+        font-size: 2rem;
+    }
+    .text2{
+        font-size: 1rem;
+    }
+    .text3{
+        font-size: 1rem;
+    }
+    .eye1{
+        font-size: 0.8rem;
+    }
+    .creat{
+        font-size: 0.6rem;
+    }
+    .quizname{
+        font-size: 1rem;
+    }
+    .text{
+        font-size: 1rem;
+    }
+}
+@media only screen and (max-width: 600px){
+    .box{
+        width: 110vw;
+        margin-left: 28vw;
+    }
+    .text1{
+        font-size: 1rem;
+    }
+    .text2{
+        font-size: 0.6rem;
+    }
+    .text3{
+        font-size: 0.6rem;
+    }
+    .eye1{
+        font-size: 0.6rem;
+    }
+    .creat{
+        font-size: 0.4rem;
+    }
+    .quizname{
+        font-size: 0.8rem;
+        margin-top: 10%;
+    }
+    .trendingbox{
+        height:  30%;
+        width: 20vw;
+    }
+    .text{
+        font-size: 0.8rem;
+    }
+}

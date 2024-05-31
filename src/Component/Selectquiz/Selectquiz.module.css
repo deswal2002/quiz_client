@@ -1,0 +1,345 @@
+.black{
+    width: 100vw;
+    height: 100vh;
+    background-color: #041325;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.white{
+    width: 90vw;
+    height: 80vh;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+}
+.questionNo{
+    margin-left: 4%;
+    color: #474444;
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+.timer{
+    margin-left: 80%;
+    color: #D60000;
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+.question{
+    margin-left: 3.5%;
+    color: #474444;
+    margin-top: 4%;
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+.option{
+    width: 70%;
+    height: 50%;
+    margin-left: 15%;
+    margin-top: 4%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.option1{
+    height: 12vh;
+    width: 25vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F0F0F0;
+    border-radius: 10px;
+    color: #000000;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 1rem;
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+}
+.option13{
+    height: 19vh;
+    width: 25vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F0F0F0;
+    border-radius: 10px;
+    color: #000000;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 1rem;
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+}
+.option12{
+    height: 19vh;
+    width: 25vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F0F0F0;
+    border-radius: 10px;
+    color: #000000;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 1rem;
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+}
+.option11{
+    height: 12vh;
+    width: 25vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F0F0F0;
+    border-radius: 10px;
+    color: #000000;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 1rem;
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+    margin-left:12vw ;
+}
+.option113{
+    height: 19vh;
+    width: 25vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F0F0F0;
+    border-radius: 10px;
+    color: #000000;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 1rem;
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+    margin-left:12vw ;
+}
+.option112{
+    height: 19vh;
+    width: 25vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F0F0F0;
+    border-radius: 10px;
+    color: #000000;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 1rem;
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+    margin-left:12vw ;
+}
+.next{
+    width: 15vw;
+    height: 6vh;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #60B84B;
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 1rem;
+}
+.submit{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.congrats{
+    width: 100%;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Poppins;
+    font-weight: 700;
+    color: #474444;
+    margin-top: 8%;
+}
+.win{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.win1{
+    width: 25%;
+    height: 10%;
+}
+.score{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-family: Poppins;
+    font-weight: 700;
+}
+.poll{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    font-family: Poppins;
+    font-weight: 700;
+    color: #474444;
+}
+.poll1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    font-family: Poppins;
+    font-weight: 700;
+    color: #474444;
+    margin-top: 8%;
+}
+.boximage{
+    width: 8vw;
+    height: 8vw;
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+    position: absolute;
+    margin-left: 14%;
+}
+.write{
+    width: 16vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    margin-right: 9%;
+}
+@media only screen and (max-width: 1200px){
+    .congrats{
+        margin-top: 15%;
+    }
+    .poll1{
+        margin-top: 13%;
+    }
+    .boximage{
+        height: 15vh;
+        width: 10vw;
+    }
+    .timer{
+        margin-left: 75%
+    }
+}
+  
+@media only screen and (max-width: 900px){
+    .congrats{
+        margin-top: 40%;
+    }
+    .poll1{
+        font-size: 3rem;
+        margin-top: 30%;
+    }
+    .poll{
+        font-size: 3rem;
+    }
+    .timer{
+        margin-left: 72%
+    }
+}
+  
+@media only screen and (max-width: 600px){
+    .white{
+        width: 100vw;
+        height: 100vh;
+        border-radius: 0%;
+    }
+    .option{
+        flex-direction: column;
+        gap: 2%;
+       flex-wrap: nowrap;
+        height: 60%;
+    }
+    .option1{
+        width: 70vw;
+    }
+    .option11{
+        margin-left: 0%;
+        width: 70vw;
+    }
+    .option12{
+        width: 70vw;
+        height: 13vh;
+    }
+    .option112{
+        margin-left: 0%;
+        width: 70vw;
+        height: 13vh;
+    }
+    .option13{
+        width: 70vw;
+        height: 13vh;
+    }
+    .option113{
+        margin-left: 0%;
+        width: 70vw;
+        height: 13vh;
+    }
+    .question{
+        margin-left: 12%;
+        height:  18%;
+        margin-top: 2%;
+    }
+    .next{
+        width: 35vw;
+        margin-top: 2%;
+    }
+    .poll1{
+        font-size: 2rem;
+        margin-top: 60%;
+    }
+    .poll{
+        font-size: 2rem;
+    }
+    .timer{
+        margin-left: 50%;
+    }
+    .congrats{
+        font-size: 1.5rem;
+        margin-top: 50%;
+    }
+    .boximage{
+        height: 10vh;
+        width: 30vw;
+        border-radius: 10px;
+        margin-left: 30%;
+        
+    }
+    .write{
+        width: 30vw;
+        margin-right: 40%;
+    }
+    .win1{
+        width: 60%;
+    }
+}
+
