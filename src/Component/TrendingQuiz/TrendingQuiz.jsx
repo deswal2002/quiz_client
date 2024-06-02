@@ -70,7 +70,7 @@ function TrendingQuiz() {
                 </div>))}
             </div>
         </div>
-        <div style={{marginBottom:"10%"}}></div>
+        <div style={{marginBottom:"4%"}}></div>
     </div>
   )
 }
